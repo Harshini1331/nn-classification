@@ -109,7 +109,7 @@ tf.argmax(model.predict([[0., 0., 0., 6., 0.]]),axis=1)
 
 ## Dataset Information
 
-Include screenshot of the dataset
+<img width="560" alt="image" src="https://user-images.githubusercontent.com/75235554/189571938-78567d6c-e0bf-4498-b0c7-da5f3978705e.png">
 
 ## OUTPUT
 
