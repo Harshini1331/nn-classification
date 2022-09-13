@@ -14,18 +14,36 @@ You are required to help the manager to predict the right group of the new custo
 
 ## Neural Network Model
 
-Include the neural network model diagram.
+![image](https://user-images.githubusercontent.com/75235554/189818813-d8bd8e14-affa-4f38-bb80-09c2518c9bc6.png)
 
 ## DESIGN STEPS
 
 ### STEP 1:
-Load the csv file and then use the preprocessing steps to clean the data
+Loading the dataset.
 
 ### STEP 2:
-Split the data to training and testing
+Checking the null values and converting the string datatype into integer or float datatype using label encoder.
 
 ### STEP 3:
-Train the data and then predict using Tensorflow
+Split the dataset into training and testing.
+
+### STEP 4:
+Create MinMaxScaler objects,fit the model and transform the data.
+
+### STEP 5:
+Build the Neural Network Model and compile the model.
+
+### STEP 6:
+Train the model with the training data.
+
+### STEP 7:
+Plot the training loss and validation loss.
+
+### STEP 8:
+Predicting the model through classification report,confusion matrix.
+
+### STEP 9:
+Predict the new sample data.
 
 ## PROGRAM
 ```python
@@ -115,20 +133,19 @@ tf.argmax(model.predict([[0., 0., 0., 6., 0.]]),axis=1)
 
 ### Training Loss, Validation Loss Vs Iteration Plot
 
-Include your plot here
+![image](https://user-images.githubusercontent.com/75235554/189819105-ab13f99a-4d88-49c4-8d50-b3a94c95ef2e.png)
 
 ### Classification Report
 
-Include Classification Report here
+![image](https://user-images.githubusercontent.com/75235554/189819148-ed19ed56-d619-4772-912f-1002e389ed3d.png)
 
 ### Confusion Matrix
 
-Include confusion matrix here
-
+![image](https://user-images.githubusercontent.com/75235554/189819226-a5876083-6fae-4b12-a044-2f1ae1f043ba.png)
 
 ### New Sample Data Prediction
 
-Include your sample input and output here
+<img width="410" alt="image" src="https://user-images.githubusercontent.com/75235554/189819292-09e3720d-7609-48ef-8336-088b3a68a33d.png">
 
 ## RESULT
 Thus a Neural Network Classification Model is created and executed successfully.
