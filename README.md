@@ -1,4 +1,4 @@
-# Developing a Neural Network Classification Model
+# <p align="center">Developing a Neural Network Classification Model</p>
 
 ## AIM
 
